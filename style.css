@@ -1,0 +1,20 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: rgb(178, 185, 83);
+}
+
+canvas{
+animation-name: firstAnimation;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes firstAnimation {
+    25% {box-shadow:1px 1px 38px rgb(194, 128, 255);}
+    50% {box-shadow:1px 1px 38px rgb(172, 83, 255);}
+    75% {box-shadow:1px 1px 38px rgb(158, 55, 255);}
+    100% {box-shadow:1px 1px 38px rgb(130, 0, 252);}
+}
